@@ -2,12 +2,13 @@
   <v-container fluid>
     <v-row align="center" justify="center">
       <v-col cols="12" md="3" lg="3" sm="4" class>
-        <p class="google-font mb-0" style="font-size:150%">What we do?</p>
+        <p class="google-font mb-0" style="font-size:150%">¿Que somos?</p>
         <p
           class="google-font mt-0"
           style="font-size:95%"
-        >Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology.</p>
-        <p class="google-font" style="font-size:95%">About different Google technologies</p>
+        > Somos aliados en ventas, para mejorar la productividad o los procesos operativos.</p>
+        <p class="google-font" style="font-size:95%">Combinan varios campos tecnológicos como robótica, 
+          sistemas expertos, Big Data o Tecnologías de Información</p>
         <span v-for="(item,i) in whatwedodata" :key="i">
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
