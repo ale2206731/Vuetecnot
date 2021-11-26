@@ -28,14 +28,14 @@
         <p class="google-font mt-0 mb-0" style="font-size:150%">{{config.generalConfig.name}}</p>
         <p class="google-font" style="font-size:100%">{{config.generalConfig.shortDescription}}</p>
         <p class="google-font" style="font-size:100%;color:#9e9e9e">
-          <span v-for="(item,i) in config.generalConfig.hashtags" :key="i">
+          <span>
             <v-chip
-              :href="'https://twitter.com/hashtag/'+item"
+              :href="'https://twitter.com/hashtag/'+Alex"
               rel="noreferrer"
               target="_blank"
               small
               class="mr-1"
-            >#{{item}}</v-chip>
+            >#Alex</v-chip>
             <!-- &nbsp; -->
           </span>
         </p>
