@@ -26,35 +26,37 @@
           <v-row>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-comment</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Talks</p>
+              <p class="google-font mt-2" style="font-size:130%">Seguridad</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Get updated with the latest news and announcements</p>
+              >Los efectos de la Inteligencia artificial en la seguridad de un negocios</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-code-tags</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Codelabs</p>
+              <p class="google-font mt-2" style="font-size:130%">Interfaz</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Get hands-on experience and guidance from the community members</p>
+              >Incorpora bien en todas las interfaces de la empresa, los clientes 
+              ya no necesitarán entender tecnología complicada
+              </p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-school</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Campus Roadshows</p>
+              <p class="google-font mt-2" style="font-size:130%">Servicios</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Share knowledge in different Companies, colleges and universities</p>
+              >Puede agendar conferencias, programar viajes  </p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-chart-bubble</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Live Viewing Parties</p>
+              <p class="google-font mt-2" style="font-size:130%">Automatizacion</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Share knowledge in different Companies, colleges and universities</p>
+              >Puede usarse como aliado en ventas o mejorar la productividad</p>
             </v-col>
           </v-row>
         </v-container>

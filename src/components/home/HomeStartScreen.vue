@@ -35,7 +35,7 @@
               target="_blank"
               small
               class="mr-1"
-            >#Alex</v-chip>
+            >#Alex & Yazmin</v-chip>
             <!-- &nbsp; -->
           </span>
         </p>
@@ -48,7 +48,7 @@
           aria-label="Become a Member"
           class="ma-0 google-font elevation-1 primary mr-2"
           style="text-transform: capitalize;border-radius:5px;color:white"
-        >Become a Member</v-btn>
+        >Conocer mas</v-btn>
         <v-btn
           v-if="checkExistance(config.generalConfig.learnMoreLink,0)"
           :href="config.generalConfig.learnMoreLink"
@@ -61,7 +61,7 @@
           outlined
           class="ml-0"
           dark
-        >Learn More</v-btn>
+        >continuar leyendo</v-btn>
       </v-col>
     </v-row>
   </v-container>

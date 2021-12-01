@@ -4,22 +4,23 @@
             <v-col cols="12" md="10" lg="10" sm="12" class="text-center mb-0" >
                 <p class="google-font mb-1" style="font-weight: 350;font-size:180%">
                     <b>
-                        Our
-                        <span style="color: #1a73e8;">Events</span> 
-                        &
-                        <span style="color: #1a73e8;">Meetups</span> 
+                        
+                        <span style="color: #1a73e8;">El futuro es </span> 
+                        
+                        <span style="color: #1a73e8;"> hoy</span> 
                     </b> 
                 </p>
                 
                 <!-- <p class="google-font mb-0" style="font-size:180%">Our Events & Meetups</p> -->
-                <p class="google-font mt-0" style="font-size:95%">At sessions that span from the technical to the visionary, let’s celebrate and discover what the technologies can enable: how product innovation, open source, and ML and AI can propel enterprises forward and solve the big problems that impact all of us.</p>
+                <p class="google-font mt-0" style="font-size:95%">El aumento del rendimiento de los trabajadores y de la capacidad productiva de
+                     las empresas parece ser el principal beneficio de la implantación de la inteligencia artificial.</p>
                 <router-link
                     to="/events"
                     text
                     color="#4C4A78"
                     class="ma-0 google-font mb-0"
                     style="border-radius:5px;text-transform: capitalize;text-decoration:none;color:#4C4A78"
-                >See More</router-link>
+                >Saber mas</router-link>
             </v-col>
             <v-col cols="12" md="12" lg="12" sm="12" class="mt-0 px-0">
                <v-container fluid class="px-2 py-0">
