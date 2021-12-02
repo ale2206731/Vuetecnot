@@ -8,11 +8,11 @@
         :class="$vuetify.theme.dark == true?'darkModeCardFeatureEvent':'lightModeCardFeatureEvent'"
         class="pa-3 py-5 fill-height"
       >
-        <p class="google-font mb-0" style="font-size:90%">{{data.date | dateFilter}}</p>
-        <p class="google-font mb-0" style="font-size:120%">{{data.name | summary(15)}}</p>
-        <p class="google-font mb-0" style="font-size:90%">{{data.venue.name | summary(20)}}</p>
+        <p class="google-font mb-0" style="font-size:90%">Apple</p>
+        <p class="google-font mb-0" style="font-size:120%">Facebook</p>
+        <p class="google-font mb-0" style="font-size:90%">Microsoft.</p>
         <v-spacer></v-spacer>
-        <p class="mb-0 mt-2 google-font" style="color:#1a73e8">See More</p>
+        <p class="mb-0 mt-2 google-font" style="color:#FF9700">Saber Mas</p>
       </div>
     </template>
     <v-card
@@ -23,7 +23,7 @@
       :class="this.$vuetify.theme.dark == true?'grey darken-3':'white'"
     >
       <v-card-title class="px-5 py-5 google-font" style="background-position:right bottom;">
-        <p class="google-font mb-0" style="font-size:150%">{{data.name}}</p>
+        <p class="google-font mb-0" style="font-size:150%">LALALALALAL</p>
         <v-spacer></v-spacer>
         <v-tooltip bottom>
       <template v-slot:activator="{ on }">
@@ -37,14 +37,14 @@
       </v-card-title>
 
       <v-card-text class="pb-5 pt-0">
-        <p class="google-font mb-0" style="font-size:120%">{{data.date}}</p>
-        <p class="google-font mb-0" style="font-size:110%">{{data.venue.name}}</p>
-        <p class="google-font">{{data.time.starttime}} - {{data.time.endtime}}</p>
+        <p class="google-font mb-0" style="font-size:120%">JAJAJAJ</p>
+        <p class="google-font mb-0" style="font-size:110%">JEJEJJEJ</p>
+        <p class="google-font">HUHUUHUUU</p>
 
         <p class="google-font mb-0" style="font-size:95%">
           <b>Description</b>
         </p>
-        <p class="google-font mt-0" style="font-size:110%">{{data.des}}</p>
+        <p class="google-font mt-0" style="font-size:110%">KIKKIKKII</p>
 
         <v-btn
           color="indigo"

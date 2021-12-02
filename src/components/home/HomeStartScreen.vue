@@ -22,12 +22,14 @@
         >
           <b>
             Inteligencia Artificial 
-            <span style="color: #17FF00;">En los Negocios.</span>
+
+            <span style="color: #1a73e8;">En los Negocios</span>
           </b>
         </p>
-        <p class="google-font mt-0 mb-0" style="font-size:150%">{{config.generalConfig.name}}</p>
-        <p class="google-font" style="font-size:100%">{{config.generalConfig.shortDescription}}</p>
-        <p class="google-font" style="font-size:100%;color:#000000">
+        <b><p class="google-font mt-0 mb-0"      style="font-size:150%">  Empresas para conseguir una optimización real de sus procesos por medio de la tecnología digital deben en primer lugar conocer bien su negocio. </p> </b>
+       <b> <p class="google-font" ><strong style="font-size:95%;color:#17FF00">Realizar un reconocimiento y análisis de todos los procesos que involucra mantenerlo funcionando</strong></p></b>
+
+        <p class="google-font" style="font-size:100%;color:#9e9e9e">
           <span>
             <v-chip
               :href="'https://twitter.com/hashtag/'+Alex"
@@ -36,6 +38,7 @@
               small
               class="mr-1"
             >#Alex & Yazmin</v-chip>
+
             <!-- &nbsp; -->
           </span>
         </p>

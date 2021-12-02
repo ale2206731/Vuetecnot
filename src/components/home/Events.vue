@@ -5,9 +5,9 @@
                 <p class="google-font mb-1" style="font-weight: 350;font-size:180%">
                     <b>
                         
-                        <span style="color: #1a73e8;">El futuro es </span> 
+                        <span style="color: #2AFF00;">El futuro es </span> 
                         
-                        <span style="color: #1a73e8;"> hoy</span> 
+                        <span style="color: #2AFF00;"> hoy</span> 
                     </b> 
                 </p>
                 
@@ -19,7 +19,7 @@
                     text
                     color="#4C4A78"
                     class="ma-0 google-font mb-0"
-                    style="border-radius:5px;text-transform: capitalize;text-decoration:none;color:#4C4A78"
+                    style="border-radius:5px;text-transform: capitalize;text-decoration:none;color:#FF9700"
                 >Saber mas</router-link>
             </v-col>
             <v-col cols="12" md="12" lg="12" sm="12" class="mt-0 px-0">

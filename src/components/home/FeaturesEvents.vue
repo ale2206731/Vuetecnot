@@ -5,9 +5,9 @@
         <p class="google-font mb-0 mt-0" style="font-weight: 350;font-size:180%">
           <b>
             
-            <span style="color: #1a73e8;">Negocios</span>
+            <span style="color: #2AFF00;">Negocios</span>
             &
-            <span style="color: #1a73e8;">Intelegencia Artificial</span>
+            <span style="color: #2AFF00;">Inteligencia Artificial</span>
           </b>
         </p>
         <p
@@ -36,7 +36,7 @@
               :class="$vuetify.theme.dark == true?'darkModeCardFeatureEvent':'lightModeCardFeatureEvent'"
               class="pa-4 px-5 mx-3"
             >
-              <p class="google-font my-2">Not Found</p>
+              <p class="google-font my-2"></p>
             </v-col>
           </v-row>
           <v-row v-else class="py-0 my-0 px-2">
