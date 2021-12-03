@@ -23,7 +23,7 @@
           <b>
             Inteligencia Artificial 
 
-            <span style="color: #1a73e8;">En los Negocios</span>
+            <span style="color: #1a73e8;">En Negocios Golabales</span>
           </b>
         </p>
         <b><p class="google-font mt-0 mb-0"      style="font-size:150%">  Empresas para conseguir una optimización real de sus procesos por medio de la tecnología digital deben en primer lugar conocer bien su negocio. </p> </b>
