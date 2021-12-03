@@ -37,14 +37,14 @@
       </v-card-title>
 
       <v-card-text class="pb-5 pt-0">
-        <p class="google-font mb-0" style="font-size:120%">JAJAJAJ</p>
-        <p class="google-font mb-0" style="font-size:110%">JEJEJJEJ</p>
-        <p class="google-font">HUHUUHUUU</p>
+        <p class="google-font mb-0" style="font-size:120%"></p>
+        <p class="google-font mb-0" style="font-size:110%">/p>
+        <p class="google-font"></p>
 
         <p class="google-font mb-0" style="font-size:95%">
           <b>Description</b>
         </p>
-        <p class="google-font mt-0" style="font-size:110%">KIKKIKKII</p>
+        <p class="google-font mt-0" style="font-size:110%"></p>
 
         <v-btn
           color="indigo"

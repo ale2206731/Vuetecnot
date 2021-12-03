@@ -9,42 +9,26 @@
             <v-col cols="12" md="12" lg="12" sm="12" class="">
                 <v-row>
                     <v-col md="6" lg="6" sm="6" cols="12">
-                        <p class="google-font mb-0" style="font-size:150%;color: #1a73e8;">Directory of past events</p>
-                        <p class="google-font mt-0 mb-0" style="font-size:95%">Events are listed in reverse chronological order by date.</p>
+                        <p class="google-font mb-0" style="font-size:150%;color: #2AFF00;">Benefios de IA en negocios</p>
+                        <p class="google-font mt-0 mb-0" style="font-size:95%"> <b> 1.- Sistemas inteligentes:</b> 
+                        Tiene que ver con emplear el aprendizaje automático para crear sistemas inteligentes que sean capaces de tener niveles de interacción casi humanos.</p>
+                       <b></b> 
+                        <p class="google-font mt-0 mb-0" style="font-size:95%"> <b> 2.- Analítica del Big Data:</b> 
+                        Tiene que ver con emplear el aprendizaje automático para crear sistemas inteligentes que sean capaces de tener niveles de interacción casi humanos.</p>
+
+                        <p class="google-font mt-0 mb-0" style="font-size:95%"> <b> 3.-  Cloud:</b> 
+                        No hay que elegir entre agilidad, tiempo de comercialización o eficiencia operativa.</p>
+                    
+                    <p class="google-font mt-0 mb-0" style="font-size:95%"> <b> 4.-El software y los algoritmos adecuados:</b> 
+                        IBM cuenta con el software que le ayudará a entrenar, implementar y optimizar en miles de núcleos, desde la
+                        optimización de núcleos y la gestión de cargas de trabajo hasta las infraestructuras de aprendizaje profundo de código abierto</p>
                     </v-col>
-                    <v-col md="6" lg="6" sm="6" cols="12">
-                        <v-text-field
-                            flat
-                            v-model="search"
-                            solo-inverted
-                            hide-details
-                            prepend-inner-icon="mdi-search-web"
-                            label="Search"
-                            single-line
-                        ></v-text-field>
-                    </v-col>
+                    
                 
                 </v-row>
                 
                     
-                <v-data-table
-                    class="mt-3"
-                    :search="search"
-                    mobile-breakpoint="no"
-                    :headers="headers"
-                    :items="eventsData"
-                    :loading="isLoading"
-                    :items-per-page="5"
-                    :class="$vuetify.theme.dark == true?'darkModeCard':'card-light'"
-                >   
-                    <template v-slot:item.name="{ item }">
-                        {{item.name}}
-                    </template>
-
-                    <template v-slot:item.link="{ item }">
-                        <a :href="item.link" target="_blank">See More</a>
-                    </template>
-                </v-data-table>
+                
             </v-col>
         </v-row>
     </v-container>

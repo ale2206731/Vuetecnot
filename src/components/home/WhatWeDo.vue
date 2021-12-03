@@ -17,7 +17,7 @@
               </a>
               &nbsp;&nbsp;&nbsp;
             </template>
-            <span>{{item.TechName}}</span>
+            <span></span>
           </v-tooltip>
         </span>
       </v-col>
