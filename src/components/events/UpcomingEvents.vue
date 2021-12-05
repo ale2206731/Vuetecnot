@@ -12,11 +12,16 @@
       style="background-position:right"
     >
       <v-col cols="12" md="12" lg="12" sm="12" class>
-        <p class="google-font mb-0" style="font-size:150%;color: #1a73e8;">Upcoming Events</p>
+        <p class="google-font mb-0" style="font-size:200%;color:#3CFF33;">¿Que es la infraestrctura y en que se basa?</p>
         <p
           class="google-font mt-0"
           style="font-size:95%"
-        >Our events are open to newbies, developers, managers, and organizations who are interested in Google's technologies or use them as part of their projects.</p>
+        >La tecnología de IA se ha movido de la ciencia ficción hacia la realidad en los negocios. Para hacer frente a los 
+        desafíos actuales y prepararse para el futuro, necesita soluciones de IA que se integren con su infraestructura y su
+         estrategia de datos las empresas que operan en mercados altamente competitivos están obteniendo los resultados de su inversión en inteligencia 
+          artificial . La IA aporta un valor tangible a las empresas, incrementando su productividad, ofreciendo nuevas
+           perspectivas estratégicas y mejorando la experiencia del cliente. Estos pioneros en la adopción de IA también han
+            conseguido una ventaja competitiva. </p>
         <v-row v-if="showLoader">
           <v-col md="3" lg="3" sm="6" cols="12" class="pa-2" v-for="(item,i) in 3" :key="i">
             <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class>
@@ -50,10 +55,10 @@
             class="pa-3"
             :class="$vuetify.theme.dark == true?'darkModeCard':'card-light'"
           >
-            <p class="google-font px-2 mb-0" style="font-size:140%">
-              <v-icon>mdi-calendar-blank</v-icon>
-              <br />No Upcoming Events!
-            </p>
+            <p class="google-font px-2 mb-0" style="font-size:140%;color:#D3B005;">
+             
+              <br/>Mejores empresas de IA en los negocios</p>
+              
           </v-col>
         </v-row>
       </v-col>
