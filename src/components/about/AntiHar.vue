@@ -18,7 +18,7 @@
                 </p>
                
                 <p class="google-font" style="font-size:110%">
-                    <b style="font-size:120%;"> Criterios previos a la adquisición de tecnologías basadas en la Inteligencia Artificial </b>
+                    <b style="font-size:120%;color: #E8D305;"> Criterios previos a la adquisición de tecnologías basadas en la Inteligencia Artificial </b>
 
                     
 
