@@ -12,6 +12,7 @@
       style="background-position:right"
     >
       <v-col cols="12" md="12" lg="12" sm="12" class>
+<<<<<<< HEAD
         <p class="google-font mb-0" style="font-size:150%;color: #68FF00;">¿Dónde se utiliza la inteligencia artificial?</p>
         <p
           class="google-font mt-0"
@@ -21,6 +22,18 @@ Resultado de imagen
 La inteligencia artificial se usa mucho para crear recomendaciones personalizadas para los consumidores, basadas, por ejemplo, 
 en sus búsquedas y compras previas o en otros comportamientos en línea.
  La IA es muy importante en el comercio, para optimizar los producos, planear el inventario, procesos logísticos</p>
+=======
+        <p class="google-font mb-0" style="font-size:200%;color:#3CFF33;">¿Que es la infraestrctura y en que se basa?</p>
+        <p
+          class="google-font mt-0"
+          style="font-size:95%"
+        >La tecnología de IA se ha movido de la ciencia ficción hacia la realidad en los negocios. Para hacer frente a los 
+        desafíos actuales y prepararse para el futuro, necesita soluciones de IA que se integren con su infraestructura y su
+         estrategia de datos las empresas que operan en mercados altamente competitivos están obteniendo los resultados de su inversión en inteligencia 
+          artificial . La IA aporta un valor tangible a las empresas, incrementando su productividad, ofreciendo nuevas
+           perspectivas estratégicas y mejorando la experiencia del cliente. Estos pioneros en la adopción de IA también han
+            conseguido una ventaja competitiva. </p>
+>>>>>>> d38b31bde55d1b41bb124e6d0fa900de9b7430d6
         <v-row v-if="showLoader">
           <v-col md="3" lg="3" sm="6" cols="12" class="pa-2" v-for="(item,i) in 3" :key="i">
             <v-sheet :color="`grey ${theme.isDark ? 'darken-2' : 'lighten-4'}`" class>
@@ -54,10 +67,17 @@ en sus búsquedas y compras previas o en otros comportamientos en línea.
             class="pa-3"
             :class="$vuetify.theme.dark == true?'darkModeCard':'card-light'"
           >
+<<<<<<< HEAD
             <p class="google-font px-40 mb-0" style="font-size:140%;color: #FF6800;">
               <v-icon>mdi-calendar-blank</v-icon>
               <br />Las empresas inovan gracias a IA
             </p>
+=======
+            <p class="google-font px-2 mb-0" style="font-size:140%;color:#D3B005;">
+             
+              <br/>Mejores empresas de IA en los negocios</p>
+              
+>>>>>>> d38b31bde55d1b41bb124e6d0fa900de9b7430d6
           </v-col>
         </v-row>
       </v-col>

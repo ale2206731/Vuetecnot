@@ -5,21 +5,25 @@
         <p
           class="google-font mb-1"
           style="font-size:110%"
-        >Our events are open to newbies, developers, managers, and organizations who are interested in Google's technologies or use them as part of their projects.</p>
-        <p class="google-font">{{data.shortDescription}}</p>
-        <p class="google-font mt-5">Questions? Please contact {{data.email}}</p>
+        >En esta pagina desarrollamos diferentes ventas para todo la 
+        informacion nesesaria que deseas saber </p>
+        <p class="google-font">Trabajamos en esta pagina para poder dar a conocer 
+          todos y cada unis de los apartados sobre la inteligencia articial en los
+        </p>
+        <p class="google-font mt-5 style=color:#1a73e8;"> puedes buscarnos en nuestras diferentes redes sociales</p>
+        
         <CommunitySocialInfo :config="config"  class="mb-2"/>
         <span v-for="(item,i) in data.hashtags" :key="i" >
           <v-chip
             class="mr-1 mb-1"
-            :href="'https://twitter.com/hashtag/'+item"
+            :href="'https://twitter.com/hashtag/'+Yaz & Alex"
             target="_blank"
             label
-          >#{{item}}</v-chip>
+          >#Yaz & Alex</v-chip>
         </span>
       </v-col>
       <v-col md="3" sm="6" cols="12" class="py-0 my-0">
-        <img :src="require('@/assets/img/svg/contact.svg')" style="float:right" width="80%" alt />
+        
       </v-col>
     </v-row>
   </v-container>

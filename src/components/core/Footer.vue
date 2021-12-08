@@ -53,7 +53,11 @@
         <v-col cols="12" md="10" lg="10" sm="11" class="px-0 mx-0"> 
           <v-divider></v-divider>
           <v-toolbar text class="pa-0 px-0 mt-3 mx-0 elevation-0" style="padding:0 !important" :class="this.$vuetify.theme.dark == true?'grey darken-4':'white'">
+<<<<<<< HEAD
             <v-toolbar-title class="google-font pl-0 ml-0 mr-3" style="font-size:200%"></v-toolbar-title>
+=======
+            <v-toolbar-title class="google-font pl-0 ml-0 mr-3" style="font-size:200%">Creadores: Yazmin & Alejandro </v-toolbar-title>
+>>>>>>> d38b31bde55d1b41bb124e6d0fa900de9b7430d6
             <v-btn
                 v-for="(item,i) in config.footerConfig['Footer End Session Link']" 
                 :key="i"
@@ -64,17 +68,24 @@
                 text
                 aria-label="Footer Bottom Button"
               >
+<<<<<<< HEAD
                 CREADORES:
               Yazmin & alejandro
             </v-btn>
             <v-spacer></v-spacer>
            <span class="subtitle-2 google-font">
+=======
+               
+            </v-btn>
+            <v-spacer></v-spacer>
+           <span class="subtitle-2 google-font">  
+>>>>>>> d38b31bde55d1b41bb124e6d0fa900de9b7430d6
           <a
             href="https://github.com/gdg-x/aura/"
             target="_blank"
             rel="noreferrer"
             style="text-decoration:none"
-          > Aura</a></span>
+          > </a></span>
           </v-toolbar>
         </v-col>
       </v-row>

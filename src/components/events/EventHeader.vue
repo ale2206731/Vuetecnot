@@ -2,6 +2,7 @@
     <v-container fluid class="py-0">
         <v-row align="center">
             <v-col md="12" sm="12" cols="12">
+
                 <p class="google-font mb-0" style="font-weight: 350;font-size:200%;color: #2AFF00;"><b>
                     ¿Que es la infraestructura 
                     <span style="color: #002BFF;">IA?</span> </b> 
@@ -12,6 +13,7 @@
                      <a style="color:#1565C0;text-decoration: none;" :href="`mailto:${config.generalConfig.email}`"></a></p>
                      <p>inteligentes 
                      capaces de aprender y adaptarse tomando como referencia la inteligencia humana.</p>
+
             </v-col>
         </v-row>
     </v-container>

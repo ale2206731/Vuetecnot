@@ -11,8 +11,10 @@
                     :lazy-src="getImgUrl(data.image, 'profile.jpg')" alt=""
                   >
                 </v-avatar>
-                <p class="mt-3 mb-0 google-font mb-0" style="font-size:120%">{{data.name | summery(20)}}</p>
-                <p class="mt-1 mb-0 google-font mt-0" style="font-size:80%">{{data.designation | summery(20)}}</p>
+                <p class="mt-3 mb-0 google-font mb-0" style="font-size:120%">PRINCIPALES OBJETIVOS</p>
+                <p class="mt-1 mb-0 google-font mt-0" style="font-size:80%">Seguidad</p>
+
+                
                 <socialMediaDetails :data="data.socialLinks"/>
           </div>
           
@@ -23,16 +25,20 @@
           class="px-5 google-font"
           primary-title
         >
-         {{data.name}} 
+     La seguridad IA en negocios 
         </v-card-title>
 
         <v-card-text class="pa-5">
-            <p class="google-font">{{data.designation}}</p>
-            <p class="google-font">{{data.bio}}</p>
+            <p class="google-font">seguridad de inteligencia artificial>
+            <p class="google-font">Con la seguridad de inteligencia artificial,
+               las cámaras y otros equipos básicamente hacen mucho del 'trabajo pesado'
+                de seguridad, lo que quita mucha presión de los negocios  Al mismo tiempo,
+                 la seguridad de la IA ayuda a minimizar sus falsas alarmas, lo que reduce 
+                 los costos y ahorra aún más tiempo.</p>
             
             <socialMediaDetails  class="pl-0 ml-0" :data="data.socialLinks"/>
 
-            <v-btn class="primary mt-3" small depressed @click="goToTeam(data.id)">See More Info</v-btn>
+            <v-btn class="primary mt-3" small depressed @click="goToTeam(data.id)">Click para mas informacion</v-btn>
         </v-card-text>
 
         <v-divider></v-divider>
@@ -44,7 +50,7 @@
             text
             @click="dialog = false"
           >
-            Close
+            cerrar
           </v-btn>
         </v-card-actions>
       </v-card>
